@@ -11,9 +11,9 @@ jobs:
     steps:
       - name: checkout
         uses: actions/checkout@v2
-      - name: Generate Doc
-        run: |
-          sed -i gh-pages/index.html -e "s/{project.name}/$GITHUB_REPOSITORY/g" -e "s {project.repo} $GITHUB_SERVER_URL g"
+      # - name: Generate Doc
+      #   run: |
+      #     sed -i gh-pages/index.html -e "s/{project.name}/$GITHUB_REPOSITORY/g" -e "s {project.repo} $GITHUB_SERVER_URL g"
       - name: Deploy Github Pages"
         uses: JamesIves/github-pages-deploy-action@3.5.9
         with:
