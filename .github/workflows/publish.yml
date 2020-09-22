@@ -1,0 +1,22 @@
+name: Publish
+
+on:
+  pull_request:
+    branches: [main]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: checkout
+        uses: actions/checkout@v2
+      - name: Generate Doc
+        run: |
+          sed -i gh-pages/index.html -e "s/{project.name}/$GITHUB_REPOSITORY/g" -e "s {project.repo} $GITHUB_SERVER_URL g"
+      - name: Deploy Github Pages"
+        uses: JamesIves/github-pages-deploy-action@3.5.9
+        with:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          BRANCH: gh-pages
+          FOLDER: gh-pages/
