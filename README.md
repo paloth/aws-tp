@@ -1,4 +1,6 @@
-# AWS Infrastructure basis
+# AWS
+
+This doc is WIP
 
 ## Getting started
 
