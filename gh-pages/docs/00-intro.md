@@ -1,22 +1,20 @@
-# Hands-On Basic Infrastructure on AWS
+<h1 style="font-weight: bold;" align="center">AWS LAB</h1>
 
-## Intro
+<h2 style="font-weight: bold;">Intro</h2>
 
 Welcome to the AWS Infrastructure basics.  
 This will guide you through the AWS web UI to learn the fundamental of this platform with the EC2 service.  
 Follow it and create a simple infrastructure manually. This will gets you familiar with the different parameters.
 
-<!-- [link](http://handson-d2si.s3-website-eu-west-1.amazonaws.com/basic-aws-infrastructure/#/) -->
+<h2 style="font-weight: bold;">Infrastructure schema</h2>
 
-## Infrastructure schema
+First thing first!  
 
-First thing first !  
-This is a schema of what you will create throught this hands-on.  
+Here is a schema of what you will create throught this lab.  
 
-![alt text](img/infra_schema.png)
+<div align="center" ><img alt="" src="assets/schema/infra_schema.png" /></div>
 
 Details:
-
 - 1 VPC
 - 2 Public subnets
 - 2 Private subnets
@@ -26,7 +24,7 @@ Details:
 - 1 Load Balancer
 - 1 Autoscaling group
 
-## Documentation
+<h2 style="font-weight: bold;">Documentation</h2>
 
 Remember for more information on the different components of this infrastructure you can follow these links:
 
@@ -34,4 +32,4 @@ Remember for more information on the different components of this infrastructure
 - [EC2](https://docs.aws.amazon.com/en_pv/AWSEC2/latest/UserGuide/concepts.html)
 - [Autoscaling Group](https://docs.aws.amazon.com/en_pv/autoscaling/plans/userguide/what-is-aws-auto-scaling.html)
 
-![Are you Ready ?](https://media.giphy.com/media/7YBYTvX00Qi29fAUrV/giphy.gif)
+<div align="center" ><img src="https://media.giphy.com/media/7YBYTvX00Qi29fAUrV/giphy.gif" /></div>
