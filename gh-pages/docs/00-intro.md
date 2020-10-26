@@ -12,7 +12,7 @@ First thing first!
 
 Here is a schema of what you will create throught this lab.  
 
-<div align="center"><img alt="" src="assets/schema/infra_schema.png" /></div>
+<div align="center"><img alt="" src="../assets/schema/infra_schema.png" /></div>
 
 Details:
 - 1 VPC
