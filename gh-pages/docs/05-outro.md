@@ -28,9 +28,9 @@ You will have to follow this order to destroy the resources correctly.
 
 <h2 style="font-weight: bold;">And now ?</h2>
 
-You have built an infrastructure on AWS. That is nice but do this manually several time is quite annoying.  
-I can invite you to try Infrastructure as Code tools like CloudFormation (Built-in AWS) or Terraform (It is open source). It is quite powerful.  
+You have built an infrastructure on AWS. That is nice but doing this manually is quite annoying.  
+I can invite you to try Infrastructure as Code tools like CloudFormation/CDK (Built-in AWS) or Terraform (It is open source). It is quite powerful.  
 
-You will describe all of your infrastructure in a file, you will be able to deploy it, modify it, destroy it as you want and very easily. But the best part is to automate it in a CI/CD tool.
+You will describe all of your infrastructure in a file, you will be able to deploy it, modify it, destroy it as you want and very easily. And the best part is to automate it in a CI/CD tool.
 
 You can download a simple example done in Terraform [here]()!

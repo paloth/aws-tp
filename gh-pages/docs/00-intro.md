@@ -4,13 +4,13 @@
 
 Welcome to the AWS Infrastructure basics.  
 This will guide you through the AWS web UI to learn the fundamental of this platform with the EC2 service.  
-Follow it and create a simple infrastructure manually. This will gets you familiar with the different parameters.
+Follow it and create a simple infrastructure manually. This will get you familiar with the different parameters.
 
 <h2 style="font-weight: bold;">Infrastructure schema</h2>
 
-First thing first!  
+First things first!  
 
-Here is a schema of what you will create throught this lab.  
+Here is a schema of what you will create through this lab.  
 
 <div align="center"><img alt="" src="../assets/schema/infra_schema.png" /></div>
 
@@ -26,7 +26,7 @@ Details:
 
 <h2 style="font-weight: bold;">Documentation</h2>
 
-Remember for more information about the different components of this infrastructure you can follow these links:
+Remember: for more information about the different components of this infrastructure you can follow these links:
 
 - [VPC](https://docs.aws.amazon.com/en_pv/vpc/latest/userguide/what-is-amazon-vpc.html)
 - [EC2](https://docs.aws.amazon.com/en_pv/AWSEC2/latest/UserGuide/concepts.html)
