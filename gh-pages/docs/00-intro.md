@@ -12,7 +12,7 @@ First thing first!
 
 Here is a schema of what you will create throught this lab.  
 
-<div align="center" ><img alt="" src="assets/schema/infra_schema.png" /></div>
+<div align="center"><img alt="" src="assets/schema/infra_schema.png" /></div>
 
 Details:
 - 1 VPC
@@ -26,10 +26,10 @@ Details:
 
 <h2 style="font-weight: bold;">Documentation</h2>
 
-Remember for more information on the different components of this infrastructure you can follow these links:
+Remember for more information about the different components of this infrastructure you can follow these links:
 
 - [VPC](https://docs.aws.amazon.com/en_pv/vpc/latest/userguide/what-is-amazon-vpc.html)
 - [EC2](https://docs.aws.amazon.com/en_pv/AWSEC2/latest/UserGuide/concepts.html)
 - [Autoscaling Group](https://docs.aws.amazon.com/en_pv/autoscaling/plans/userguide/what-is-aws-auto-scaling.html)
 
-<div align="center" ><img src="https://media.giphy.com/media/7YBYTvX00Qi29fAUrV/giphy.gif" /></div>
+<div align="center"><img src="https://media.giphy.com/media/7YBYTvX00Qi29fAUrV/giphy.gif" /></div>
