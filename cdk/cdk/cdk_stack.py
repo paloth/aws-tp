@@ -1,7 +1,6 @@
 from aws_cdk import core
 import aws_cdk.aws_ec2
 import aws_cdk.aws_elasticloadbalancingv2 as elbv2
-import aws_cdk.aws_elasticloadbalancingv2_targets as targets
 import aws_cdk.aws_autoscaling as asg
 
 
@@ -34,7 +33,6 @@ class CdkStack(core.Stack):
         sg_websrv = aws_cdk.aws_ec2.SecurityGroup(scope=self, id='sg_websrv', vpc=vpc, security_group_name='websrv sg')
         sg_websrv.add_ingress_rule(peer=sg_alb, connection=aws_cdk.aws_ec2.Port.tcp(80))
 
-
         # asg
         user_data = "#!/bin/bash \n " \
                     "echo '[nginx] \n" \
@@ -51,7 +49,8 @@ class CdkStack(core.Stack):
                                         instance_type=aws_cdk.aws_ec2.InstanceType('t2.micro'),
                                         vpc=vpc,
                                         security_group=sg_websrv,
-                                        machine_image=aws_cdk.aws_ec2.AmazonLinuxImage(generation=aws_cdk.aws_ec2.AmazonLinuxGeneration.AMAZON_LINUX_2))
+                                        machine_image=aws_cdk.aws_ec2.AmazonLinuxImage(generation=aws_cdk.aws_ec2.AmazonLinuxGeneration.AMAZON_LINUX_2),
+                                        min_capacity=3)
         as_group.add_user_data(user_data)
 
         # Create Load Balancer
@@ -67,5 +66,5 @@ class CdkStack(core.Stack):
         listener.add_targets("Target", port=80,
                              targets=[as_group])
 
-        listener.connections.allow_default_port_from_any_ipv4("Open to the world")
+        listener.connections.allow_default_port_from_any_ipv4()
 
