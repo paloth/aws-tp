@@ -8,21 +8,20 @@
 
 This lab has been created to learn aws and IaC (Infrastructur As Code) with simple example.  
 
-
 <h2>Getting started</h2>
 
-In this hands-on you will learn the AWS IaaS (Infrastructure as a Servie) basis with different services like VPC, EC2,...  
+In this hands-on you will learn the AWS IaaS (Infrastructure as a Service) foundation with different services like VPC, EC2,...  
 You can perform it through the web UI but you can also use the AWS cli or an IaC tools (CloudFormation/CDK or Terraform).
 
 <h2>What you need</h2>
 
-You will need an AWS account with web UI access (Login / password).  
+You will need an AWS account with web UI access (login / password).  
 If you chose to use the AWS cli or IaC tools you will need a programatic acces on your account.
 
 <h2>Stack initialization</h2>
 
 You can find CDK and Terraform stacks as example in this repository.  
-Read the different documentation to know how to use those tools
+Read the different documentation to know how to use these tools
 
 <h2>About the authors</h2>
 <div> 
