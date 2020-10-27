@@ -4,7 +4,7 @@
 
 Welcome to the AWS Infrastructure basics.  
 This will guide you through the AWS web UI to learn the fundamental of this platform with the EC2 service.  
-Follow it and create a simple infrastructure manually. This will gets you familiar with the different parameters.
+Follow it and create a simple infrastructure manually. This will get you familiar with the different parameters.
 
 <h2 style="font-weight: bold;" align="right">Infrastructure schema</h2>
 
