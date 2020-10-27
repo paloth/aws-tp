@@ -1,6 +1,7 @@
-# AutoScaling Group
+<h1 style="font-weight: bold;" align="center">AutoScaling Group</h1>
 
-## Create a launch configuration
+<h2 style="font-weight: bold;">Create a launch configuration</h2>
+
 - **Step 1**
   - Select your favorite AMI (Amazon Linux 2 works fine)
 - **Step 2**
@@ -36,7 +37,7 @@ systemctl start nginx
 - **Step 6**:
   - Check your config and click on create
 
-## Create Auto Scaling Group
+<h2 style="font-weight: bold;" align="right">Create Auto Scaling Group</h2>
 
 - **Step 1**
   - Select Lauch Configuration and select the Lauch configuration created previously
